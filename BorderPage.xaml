@@ -20,7 +20,10 @@
                     <Label Text="{Binding .}"/>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
+            <CollectionView.EmptyView>
+                    <Label Text="This throws exception when moving back, and to this page again"/>
+            </CollectionView.EmptyView>
         </CollectionView>
-
+        
     </VerticalStackLayout>
 </ContentPage>
