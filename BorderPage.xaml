@@ -21,7 +21,9 @@
                 </DataTemplate>
             </CollectionView.ItemTemplate>
             <CollectionView.EmptyView>
+                <Border x:Name="OhNoThisCrashesAgain">
                     <Label Text="This throws exception when moving back, and to this page again"/>
+                </Border>
             </CollectionView.EmptyView>
         </CollectionView>
         
